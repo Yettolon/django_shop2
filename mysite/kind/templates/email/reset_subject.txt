@@ -1,0 +1,6 @@
+{% autoescape off %}
+Hi
+
+Used by this link to reset your password:
+http://localhost:8000{% url 'kind:password_reset_confirm' uidb64=uid token=token %}
+{% endautoescape %}

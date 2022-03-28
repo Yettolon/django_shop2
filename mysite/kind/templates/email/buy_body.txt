@@ -1,0 +1,17 @@
+Post dates:
+
+Name:{{user.name}}
+Address:{{user.address}}
+Country:{{user.country}}
+Postcode:{{user.postcode}}
+Phone number:{{user.phoneNumber}}
+
+
+
+Order:
+
+{% for i in price %}
+{{i}}
+{% endfor %}
+Total: {{total}}
+{{ppp}}
